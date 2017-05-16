@@ -1,0 +1,117 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+	width: 1600px;
+	margin: 0 auto;
+}
+.main-header {
+	height: 912px;
+	background: url(../img/main_header_bg.jpg);
+	position: relative;
+
+}
+.main-header-text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: url(../img/h1_bg.png) no-repeat right 10px top;
+	padding-top: 29px;
+	
+}
+.main-header-text h1 {
+	color: white;
+	font-size: 95.67px;
+}
+.main-header-text h1 strong {
+	font-weight: bold;
+}
+.main-header-text .features {
+	font-size: 42.14px;
+	color: #ffd630;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 122px;
+	text-align: center;
+}
+.main-header-text .features strong {
+	font-weight: bold;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.main-header-text .features strong:nth-child(1) {
+	background-image: url(../img/features_1_bg.png);
+}
+.main-header-text .features strong:nth-child(2) {
+	background-image: url(../img/features_2_bg.png);
+}
+.main-header-text .features strong:nth-child(3) {
+	background-image: url(../img/features_3_bg.png);
+}
+/*---------------------------------------------------------*/
+.main-header-text .explanation {
+	font-size: 30.62px;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 72px;
+}
+.main-header-text .explanation span {
+	display: block;
+	line-height: 42px;
+}
+.main-header-text .explanation span strong {
+	font-weight: 700;
+	color: #ffd630;
+}
+/*-------------------------Pon--------------------------------*/
+.number-check {
+    height: 143px;
+    background: url(../img/number_check_bg.png)
+}
+.contest-description {
+    height: 594px;
+    background: url(../img/contest_description_bg.png)
+    
+}
+.contest-description-text {
+    font-size: 23.26px;
+    color: #fff;
+   
+    position: relative;
+    left: 705px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 553px;
+
+}
+
+.contest-description-text ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 300;
+}
+.contest-description-text ol a {
+	color: #ffd630;
+	text-decoration: none;
+	position: relative;
+}
+.contest-description-text ol a:after {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height:5px;
+	background: url(../img/link_underline_bg.png) center no-repeat;
+	bottom: -7px;
+	left: 0;
+	z-index: 999;
+	background-size: cover;
+}
+.contest-description-text strong {
+    font-weight: 700;
+    color: #ffd630;
+}
