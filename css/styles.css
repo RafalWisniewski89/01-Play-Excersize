@@ -79,13 +79,11 @@ body {
 .contest-description-text {
     font-size: 23.26px;
     color: #fff;
-   
     position: relative;
     left: 705px;
     top: 50%;
     transform: translateY(-50%);
     width: 553px;
-
 }
 
 .contest-description-text ol {
@@ -114,4 +112,59 @@ body {
 .contest-description-text strong {
     font-weight: 700;
     color: #ffd630;
+}
+/*-------------------------Wt--------------------------------*/
+.gallery-main {
+    height: 577px;
+    background: #fff;
+}
+.gallery-main-image {
+    width: 923px;
+    height: 528px;
+    background: url(../img/gallery_image.png);
+    margin: 0 auto;
+    margin-top: 39px;
+}
+.number-registration {
+    height: 595px;
+    position: relative;
+    background: url(../img/register_number_bg.png);
+}
+.number-registration-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1015px;
+    
+}
+.number-registration-info h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.number-registration-info ul {
+    display: flex;
+    justify-content: space-around;
+}
+.number-registration-info li {
+    width: 275px;
+}
+.number-registration-info img {
+    display: block;
+    position: relative;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+.number-registration-info p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 17px;
+}
+.number-registration-info strong {
+    font-weight: 700;
 }
