@@ -66,11 +66,31 @@ body {
 	font-weight: 700;
 	color: #ffd630;
 }
-/*-------------------------Pon--------------------------------*/
+/*-------------------------Number Check--------------------------------*/
 .number-check {
     height: 143px;
-    background: url(../img/number_check_bg.png)
+    background: url(../img/number_check_bg.png);
+    position: relative;
 }
+.number-check-content{
+    width: 920px;
+    color:#75489b;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    float: left;
+    position: absolute;
+}
+.number-check-text p {
+    font-size: 24px;
+    font-weight: 700;
+}
+.number-check-input {
+    width: 390px;
+}
+
+
+/*-------------------------Number Check--------------------------------*/
 .contest-description {
     height: 594px;
     background: url(../img/contest_description_bg.png)
@@ -142,14 +162,23 @@ body {
     font-weight: 700;
     color: #fff;
     text-align: center;
+    margin-bottom: 63px;
 }
 .number-registration-info ul {
     display: flex;
     justify-content: space-around;
 }
 .number-registration-info li {
-    width: 275px;
-    width: 275px;
+    width: 260px;
+}
+.number-registration-info li:first-child p {
+    padding: 0 20px;
+}
+.number-registration-info li:nth-child(2) p {
+    padding: 0 40px;
+}
+.number-registration-info li:last-child p {
+    padding: 0 15px;
 }
 .number-registration-info img {
     display: block;
@@ -184,23 +213,42 @@ body {
     color: #7338bb;
     float: left;
 }
-.main-footer-text1 {
-    width: 50%;
-    text-align: center;
-    vertical-align: middle;
+.main-footer-text {
+    width: 1015px;
     line-height: 80px;
+    margin: 0 auto;
 }
-.main-footer-text2 {
-    width: 50%;
-    line-height: 80px;
+.main-footer-text p{
+    float: left;
 }
-.main-footer-text2 ul li {
+.main-footer-text ul {
+    float: right;
+}
+.main-footer-text ul li {
+    float: left;
+}
+.main-footer-text ul li {
     float: left;  
 }
-.main-footer-text2 ul li:before {
-    content: " | ";
-    margin: 0 10px;
+.main-footer-text ul li:before {
+    content: "|";
+    padding: 0 10px;
 }
-.main-footer-text2 ul li:last-child:before {
-  display: none;
+.main-footer-text ul li:last-child:before {
+    display: none;
+}
+/*-------------------------button--------------------------------*/
+
+.learn-more {
+    text-decoration: none;
+    border: 1px solid #fff;
+    line-height: 65px;
+    width: 275px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    position: relative;
+    top: 55px;
 }
