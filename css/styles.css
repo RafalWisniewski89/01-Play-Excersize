@@ -136,7 +136,6 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 1015px;
-    
 }
 .number-registration-info h4 {
     font-size: 40px;
@@ -149,6 +148,7 @@ body {
     justify-content: space-around;
 }
 .number-registration-info li {
+    width: 275px;
     width: 275px;
 }
 .number-registration-info img {
@@ -167,4 +167,40 @@ body {
 }
 .number-registration-info strong {
     font-weight: 700;
+}
+/*-------------------------śr--------------------------------*/
+.main-footer {
+    height: 86px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    color: #7338bb;
+    line-height: 24.27px;
+}
+.main-footer a {
+    text-decoration: none;
+    color: #7338bb;
+    float: left;
+}
+.main-footer-text1 {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
+.main-footer-text2 {
+    width: 50%;
+    line-height: 80px;
+}
+.main-footer-text2 ul li {
+    float: left;  
+}
+.main-footer-text2 ul li:before {
+    content: " | ";
+    margin: 0 10px;
+}
+.main-footer-text2 ul li:last-child:before {
+  display: none;
 }
