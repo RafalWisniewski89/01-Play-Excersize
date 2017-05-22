@@ -5,6 +5,7 @@ body {
 	width: 1600px;
 	margin: 0 auto;
 }
+/*--------------------------Main-header-------------------------------*/
 .main-header {
 	height: 912px;
 	background: url(../img/main_header_bg.jpg);
@@ -50,7 +51,7 @@ body {
 .main-header-text .features strong:nth-child(3) {
 	background-image: url(../img/features_3_bg.png);
 }
-/*---------------------------------------------------------*/
+/*--------------------------/Main-header-------------------------------*/
 .main-header-text .explanation {
 	font-size: 30.62px;
 	color: #fff;
@@ -66,20 +67,21 @@ body {
 	font-weight: 700;
 	color: #ffd630;
 }
-/*-------------------------Number Check--------------------------------*/
+/*-------------------------Number-Check--------------------------------*/
 .number-check {
     height: 143px;
     background: url(../img/number_check_bg.png);
     position: relative;
 }
 .number-check-content{
-    width: 920px;
+    width: 930px;
     color:#75489b;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     float: left;
     position: absolute;
+    display: inline;
 }
 .number-check-content p {
     font-size: 24px;
@@ -88,7 +90,6 @@ body {
     line-height: 31px;
     width: 300px;
     margin-top: 5px;
-
 }
 .number-check-input {
     width: 390px;
@@ -114,12 +115,16 @@ body {
     width: 228px;
     cursor: pointer;
 }
+.number-check-content button:after {
+    position: absolute;
+    width: 100%;
+    background: url(../img/button_image.png) center no-repeat;
+}
 
 /*-------------------------Contest-Description--------------------------------*/
 .contest-description {
     height: 594px;
-    background: url(../img/contest_description_bg.png)
-    
+    background: url(../img/contest_description_bg.png);
 }
 .contest-description-text {
     font-size: 23.26px;
@@ -128,7 +133,7 @@ body {
     left: 705px;
     top: 50%;
     transform: translateY(-50%);
-    width: 553px;
+    width: 555px;
 }
 
 .contest-description-text ol {
